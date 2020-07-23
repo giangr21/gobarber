@@ -1,0 +1,31 @@
+** Testes automatizados **
+
+Que a nossa aplicacao continue funcionando independente do numero de novas funcionaldiades e o do numero de devs no time
+
+1. Testes unitarios (TDD)
+
+Testam funcionalidades especificas da nossa aplicacao ( precisam ser funcoes puras ).
+
+Jamais: chamada a uma api, nao possui efeito colateral
+
+2. Testes de integracao
+
+Testam uma funcionalidade completa, passando por varias camadas da aplicacao.
+
+Route => Controller => Servico => Repository => ...
+
+3. Testes E2E
+
+Testes que simulam a acao do usuario dentro da nossa aplicacao.
+
+1. Clique no input de email
+2. Preencha giangr@gmail.com
+3. Clique no input de senha
+4. Preencha 123456
+5. Clique no botao de logar
+6. Espero que a pagina tenha enviado o usuario para o dashboard
+
+
+** TDD (Test Driven Development) **
+
+- Quando ele se cadastrar na aplicacao, ele deve receber um email de boas vindas;
