@@ -99,7 +99,7 @@ You will need in your machine **Node.js**,  **Yarn** and **Docker**.
 
 ---
 
-## 📱 Instruções para o mobile
+## 📱 Instructions mobile
 
  - Run `yarn` to download all the dependencies needed to execute the project.
 
